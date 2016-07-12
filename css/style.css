@@ -30,7 +30,8 @@
 }
 
 .content {
-    height: 400px;
+    height: 440px;
+    text-align: center;
 }
 
 .hamburger-menu{
@@ -38,6 +39,7 @@
     z-index: 1;
     top: 40%;
     left: 7%;
+    width: 90%;
 }
 
 .hamburger-menu img{
@@ -62,4 +64,45 @@
     -moz-transform:scale(1,1.5); /* Firefox */
     -ms-transform:scale(1,1.5); /* IE 9 */
     -o-transform:scale(1,1.5);
+}
+
+.content-title{
+    font-size: 42px;
+    color: #007BB4;
+    margin-top: 24px;
+}
+
+.telephone{
+    font-size: 34px;
+    color: #47525e;
+    margin-top: 48px;
+}
+
+.telephoneNumber, .faxNumber{
+    font-size: 30px;
+    color: #007BB4;
+    margin-top: 22px;
+}
+
+.fax, .email{
+    font-size: 36px;
+    color: #47525e;
+    margin-top: 48px;
+}
+
+.emailValue{
+    font-size: 26px;
+    color: #007BB4;
+    margin-top: 22px;
+}
+
+.desktop-home{
+    position: relative;
+    margin-top: 30px;
+    height: 40px;
+    background-color: #007BB4;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
 }
