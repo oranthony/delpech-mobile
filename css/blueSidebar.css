@@ -124,7 +124,7 @@
 .sidr ul li ul li:hover,
 .sidr ul li ul li.active,
 .sidr ul li ul li.sidr-class-active {
-    border-top: 0;
+
     line-height: 41px
 }
 
@@ -193,4 +193,12 @@
 .sidr input[type=button]:hover,
 .sidr input[type=submit]:hover {
     background: rgba(255, 255, 255, 0.9)
+}
+
+.desktop{
+    background-color: #eceff1;
+}
+
+.desktop-content{
+    color: #455a64 !important;
 }

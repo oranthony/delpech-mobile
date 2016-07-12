@@ -23,6 +23,12 @@
     background-image: url('../img/home.jpg');
     background-size: cover;
 }
+
+.image img{
+    -webkit-filter: brightness(-100%);
+    /*-webkit-filter: contrast(140%);*/
+}
+
 .content {
     height: 400px;
 }
@@ -37,4 +43,23 @@
 .hamburger-menu img{
     width: 6%;
     max-width: 30px;
+}
+
+.text-hover{
+    color: white;
+    position: relative;
+    top: 37%;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    margin-bottom: 40px;
+
+    transform:scale(1,1.5); /* W3C */
+    -webkit-transform:scale(1,1.5); /* Safari and Chrome */
+    -moz-transform:scale(1,1.5); /* Firefox */
+    -ms-transform:scale(1,1.5); /* IE 9 */
+    -o-transform:scale(1,1.5);
 }
