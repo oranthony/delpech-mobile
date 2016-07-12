@@ -1,0 +1,40 @@
+.navigation{
+    height: 60px;
+}
+
+.navbar-brand {
+    float: none;
+}
+
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+
+.image {
+    width:100vw;
+    height: 90vh;
+    background-image: url('../img/home.jpg');
+    background-size: cover;
+}
+.content {
+    height: 400px;
+}
+
+.hamburger-menu{
+    position: relative;
+    z-index: 1;
+    top: 40%;
+    left: 7%;
+}
+
+.hamburger-menu img{
+    width: 6%;
+    max-width: 30px;
+}
