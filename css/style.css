@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-.hamburger-menu{
+.hamburger-menu, .navbar-header{
     position: relative;
     z-index: 1;
     top: 40%;
@@ -91,7 +91,7 @@
 }
 
 .emailValue{
-    font-size: 26px;
+    font-size: 20px;
     color: #007BB4;
     margin-top: 22px;
 }
@@ -105,4 +105,79 @@
     font-size: 22px;
     text-align: center;
     padding-top: 20px;
+}
+
+
+
+
+/*  CONTACT PAGE */
+.image-contact-tel{
+    width:100vw;
+    height: 17vh;
+    background-image: url('../img/call-center-resize.png');
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
+.contact-telephone{
+    font-size: 26px;
+}
+
+.contact-box{
+    height: 120px;
+}
+
+.contact-content{
+    line-height: 125px;
+    text-align: center;
+    font-size: 34px;
+    color: #007BB4;
+
+}
+
+.contact-content-details{
+    text-align: center;
+    font-size: 18px;
+    color: #47525e;
+    margin-bottom: 35px;
+    margin-top: -30px;
+}
+
+.image-contact-fax{
+    width:100vw;
+    height: 17vh;
+    background-image: url('../img/fax-corp.png');
+    background-size: cover;
+}
+
+.contact-fax{
+    font-size: 38px;
+}
+
+.image-contact-mail{
+    width:100vw;
+    height: 17vh;
+    background-image: url('../img/mail-sombre.png');
+    background-size: cover;
+}
+
+.contact-fax{
+    font-size: 38px;
+}
+
+.contact-mail{
+    font-size: 35px;
+}
+
+.emailText{
+    position: relative;
+    top: 18px;
+    line-height: 35px;
+}
+
+.image-contact-adresse{
+    width:100vw;
+    height: 17vh;
+    background-image: url('../img/map-sombre.jpg');
+    background-size: cover;
 }
