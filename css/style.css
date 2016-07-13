@@ -224,9 +224,9 @@
     margin-bottom: 10%;
 }
 
-.panel:last-child {
+/*.panel:last-child {
     border-bottom: none;
-}
+}*/
 
 .panel-group > .panel:first-child .panel-heading {
     border-radius: 4px 4px 0 0;
