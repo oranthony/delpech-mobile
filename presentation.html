@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Page de contact</title>
+
+    <title>Laboratoire Delpech</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Anthony Loroscio">
@@ -20,6 +21,7 @@
     <!-- Include a Sidr custom CSS theme -->
     <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css">-->
     <link rel="stylesheet" href="css/blueSidebar.css">
+
 
 </head>
 <body>
@@ -40,45 +42,41 @@
 
 </nav>
 
-<div class='image-contact-tel'>
-    <div class="text-hover contact-telephone tel text-center">Standard téléphonique</div>
-</div>
-
-<div class="contact-content contact-box">
-    04 91 65 91 91
-</div>
-
-<div class="contact-content-details">
-    Mettre les horraires ici
-</div>
-
-<div class='image-contact-fax'>
-    <div class="text-hover contact-fax text-center">Fax</div>
-</div>
-
-<div class="contact-content contact-box">
-    04 91 65 91 93
-</div>
-
-<div class='image-contact-mail'>
-    <div class="text-hover contact-mail text-center">E-Mail</div>
-</div>
-
-<div class="emailValue contact-box">
-    <div class="emailText">
-        <div class="text-center"><a href="mailto:contact.labo@delpechfabre.fr">contact.labo@delpechfabre.fr</a></div>
-        <div class="text-center"><a href="mailto:commande.labo@delpechfabre.fr">commande.labo@delpechfabre.fr</a></div>
+<!-- Main picture (wallpaper) of the presentation page with text -->
+<div class='image-presentation-1'>
+    <div class="text-hover-presentation-1 text-center">
+        Nous sommes spécialisés depuis plus de 25 ans dans la fabrication de Préparations Magistrales pour le compte des
+        Professionnels de Santé (pharmaciens, médecins, vétérinaires).
     </div>
 </div>
 
-<div class='image-contact-adresse'>
-    <div class="text-hover contact-mail text-center">Adresse</div>
+<!-- small text under the main picture -->
+<div class="presentation-text-1 text-center">
+    Depuis 2016, le Préparatoire Delpech Marseille est détenteur de la Certification Norme ISO 9001 ce qui garantit à
+    tous nos clients la qualité de nos préparations, ainsi qu’une libération et une délivrance optimisées.
 </div>
 
-<div class="emailValue contact-box">
-    <div class="emailText">
-        <div class="text-center">180 Rue Rabelais</div>
-        <div class="text-center">13016 Marseille</div>
+<!-- Second picture (wallpaper) of the presentation page with text -->
+<div class='image-presentation-2'>
+    <div class="text-hover-presentation-2-title text-center">
+        QU'EST CE QU'UNE PREPARATION MAGISTRALE ?
+    </div>
+
+    <div class="text-hover-presentation-2-content text-center">
+        <div class="paragraph-1">
+            Une préparation magistrale est un médicament unique et personnalisé en fonction de la typologie de chaque
+            patient (formes galéniques et dosages adaptés).
+        </div>
+
+        <div class="paragraph-2">
+            C’est une vraie alternative lorsque les spécialités ne répondent pas aux besoins pharmacologiques ou quand
+            certaines ne sont plus commercialisées.
+        </div>
+
+        <!-- This is a grey background box which extends the picture in case the picture is not long enough (this is
+        the case for some iPad ratio). This allow to have a dark background to read the text.-->
+        <div class="extend"></div>
+
     </div>
 </div>
 
@@ -86,10 +84,10 @@
 <div id="sidr">
     <ul>
         <li><a href="index.html">Accueil</a></li>
-        <li><a href="presentation.html">Présentation</a></li>
+        <li class="active"><a href="presentation.html">Présentation</a></li>
         <li><a href="#">Actualités</a></li>
         <li><a href="qualite.html">Engagement Qualité</a></li>
-        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <div class="desktop">
             <li><a href="#" class="desktop-content">Version classique</a></li>
         </div>
