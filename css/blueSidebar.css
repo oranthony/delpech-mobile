@@ -86,8 +86,7 @@
 .sidr ul li:hover,
 .sidr ul li.active,
 .sidr ul li.sidr-class-active {
-    border-top: 0;
-    line-height: 49px
+    background-color: #f9ebcc;
 }
 
 .sidr ul li:hover>a,
@@ -96,7 +95,7 @@
 .sidr ul li.active>span,
 .sidr ul li.sidr-class-active>a,
 .sidr ul li.sidr-class-active>span {
-    /*box-shadow: 0 0 15px 3px #222 inset*/
+    color: #455a64;
 }
 
 .sidr ul li a,

@@ -51,7 +51,7 @@
     color: white;
     position: relative;
     top: 37%;
-    font-size: 24px;
+    font-size: 6vw;
     font-weight: 100;
     letter-spacing: 1.5px;
     text-align: justify;
@@ -67,33 +67,33 @@
 }
 
 .content-title{
-    font-size: 42px;
+    font-size: 10vw;
     color: #007BB4;
-    margin-top: 38px;
+    margin-top: 6vh;
 }
 
 .telephone{
-    font-size: 34px;
+    font-size: 8vw;
     color: #47525e;
-    margin-top: 48px;
+    margin-top: 8vh;
 }
 
 .telephoneNumber, .faxNumber{
-    font-size: 30px;
+    font-size: 8vw;
     color: #007BB4;
-    margin-top: 22px;
+    margin-top: 5vh;
 }
 
 .fax, .email{
-    font-size: 36px;
+    font-size: 8vw;
     color: #47525e;
-    margin-top: 48px;
+    margin-top: 9vh;
 }
 
 .emailValue{
-    font-size: 20px;
+    font-size: 5vw;
     color: #007BB4;
-    margin-top: 22px;
+    margin-top: 5vh;
 }
 
 .desktop-home{
@@ -120,7 +120,7 @@
 }
 
 .contact-telephone{
-    font-size: 26px;
+    font-size: 6vw;
 }
 
 .contact-box{
@@ -130,8 +130,9 @@
 .contact-content{
     line-height: 125px;
     text-align: center;
-    font-size: 34px;
+    font-size: 7vw;
     color: #007BB4;
+    margin-bottom: 2vh;
 
 }
 
@@ -151,7 +152,7 @@
 }
 
 .contact-fax{
-    font-size: 38px;
+    font-size: 8vw;
 }
 
 .image-contact-mail{
@@ -161,12 +162,8 @@
     background-size: cover;
 }
 
-.contact-fax{
-    font-size: 38px;
-}
-
 .contact-mail{
-    font-size: 35px;
+    font-size: 6vw;
 }
 
 .emailText{
@@ -190,7 +187,7 @@
 #accordion .panel-heading a:before {
     content: '\e316';
     display: inline;
-    font-size: 38px;
+    font-size: 7vw;
     position: absolute;
     font-family: 'Material Icons';
     right: 5px;
@@ -254,7 +251,7 @@
     padding: 15px;
     padding-right: 35px;
     position: relative;
-    font-size: 16px;
+    font-size: 4vw;
     font-weight: 400;
 }
 
@@ -264,7 +261,7 @@
     margin-left: 15px;
     margin-right: 15px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 3vw;
 }
 
 .panel:last-child .panel-body {
@@ -282,32 +279,12 @@
 }
 /* #bs-collapse icon scale option */
 
-.panel-heading a:before {
-    content: '\e146';
-    position: absolute;
-    font-family: 'Material Icons';
-    right: 5px;
-    top: 10px;
-    font-size: 24px;
-    transition: all 0.5s;
-    transform: scale(1);
-}
+
 
 .panel-heading.active a:before {
     content: ' ';
     transition: all 0.5s;
     transform: scale(0);
-}
-
-#bs-collapse .panel-heading a:after {
-    content: ' ';
-    font-size: 24px;
-    position: absolute;
-    font-family: 'Material Icons';
-    right: 5px;
-    top: 10px;
-    transform: scale(0);
-    transition: all 0.5s;
 }
 
 #bs-collapse .panel-heading.active a:after {
@@ -387,7 +364,7 @@
     padding-left: 5%;
     padding-right: 5%;
     font-size: 5vw;
-    top: 50vh;
+    top: 47vh;
     line-height: 110%;
 }
 
