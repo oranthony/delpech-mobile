@@ -201,3 +201,25 @@
 .desktop-content{
     color: #455a64 !important;
 }
+
+/* Facebook news */
+.facebook{
+    background-color: #3b5998;
+    display: inline;
+}
+
+.facebook-content{
+    display: inline-block;
+}
+
+.facebook-logo{
+    display: inline;
+}
+
+.facebook-logo img{
+    float: right;
+    height:38px;
+    margin: 4px;
+}
+
+/* End Facebook News */
