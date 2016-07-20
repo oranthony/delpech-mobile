@@ -372,3 +372,17 @@
     margin-bottom: 5vh;
 }
 
+
+.arrow-hover{
+    position: absolute;
+    top: 86vh;
+    left:0;
+    right: 0;
+}
+
+path{
+    fill: white;
+}
+
+
+/* Media queries for landscape orientation */
