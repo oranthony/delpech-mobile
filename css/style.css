@@ -109,8 +109,9 @@
 
 
 
-
+/******************/
 /*  CONTACT PAGE */
+/****************/
 .image-contact-tel{
     width:100vw;
     height: 17vh;
@@ -181,7 +182,9 @@
 
 /* END Contact */
 
-/* Qualite */
+/************/
+/* Qualite page */
+/**********/
 /* #accordion rotate icon option */
 
 #accordion .panel-heading a:before {
@@ -221,17 +224,9 @@
     margin-bottom: 10%;
 }
 
-/*.panel:last-child {
-    border-bottom: none;
-}*/
-
 .panel-group > .panel:first-child .panel-heading {
     border-radius: 4px 4px 0 0;
 }
-
-/*.panel-group .panel {
-    border-radius: 0;
-}*/
 
 .panel-group .panel + .panel {
     margin-top: 0;
@@ -295,7 +290,9 @@
 
 /* END Qualite */
 
+/**********************/
 /* Presentation page */
+/********************/
 .image-presentation-1{
     width:100vw;
     height: 90vh;
@@ -384,5 +381,152 @@ path{
     fill: white;
 }
 
-
+/********************************************/
 /* Media queries for landscape orientation */
+/******************************************/
+@media all and (orientation: landscape){
+    /* Home Page */
+    .content-title{
+        font-size: 10vh;
+        color: #007BB4;
+        margin-top: 6vw;
+    }
+
+    .telephone{
+        font-size: 8vh;
+        color: #47525e;
+        margin-top: 8vw;
+    }
+
+    .telephoneNumber, .faxNumber{
+        font-size: 8vh;
+        color: #007BB4;
+        margin-top: 5vw;
+    }
+
+    .fax, .email{
+        font-size: 8vh;
+        color: #47525e;
+        margin-top: 9vw;
+    }
+
+    .emailValue{
+        font-size: 5vh;
+        color: #007BB4;
+        margin-top: 5vw;
+    }
+
+
+    /*Presentation page */
+    .text-hover-presentation-1{
+        color: white;
+        position: relative;
+        top: 22vh;
+        font-size: 4vw;
+        font-weight: 100;
+        letter-spacing: 1.5px;
+        line-height: 4vw;
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        margin: 30px;
+        margin-bottom: 40px;
+
+        transform:scale(1,1.3); /* W3C */
+        -webkit-transform:scale(1,1.3); /* Safari and Chrome */
+        -moz-transform:scale(1,1.3); /* Firefox */
+        -ms-transform:scale(1,1.3); /* IE 9 */
+        -o-transform:scale(1,1.3);
+    }
+
+    .image-presentation-2{
+        width:100vw;
+        height: 100vh;
+        background-color: #595959;
+        /*Trick to remove the picture background only on landscape orientation */
+        background-image: url("") ;
+        background-size: cover;
+    }
+
+    .text-hover-presentation-2-content{
+        position: relative;
+        color: white;
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 5vw;
+        top: 47vh;
+        line-height: 110%;
+        background-color: #595959
+    }
+
+    /* Contact page */
+    .image-contact-tel{
+        width:100vw;
+        height: 17vw;
+        background-image: url('../img/call-center-resize.png');
+        background-size: cover;
+        margin-bottom: -10px;
+    }
+
+    .contact-telephone{
+        font-size: 6vw;
+    }
+
+    .contact-box{
+        height: 120px;
+    }
+
+    .contact-content{
+        line-height: 125px;
+        text-align: center;
+        font-size: 7vw;
+        color: #007BB4;
+        margin-bottom: 2vh;
+
+    }
+
+    .contact-content-details{
+        text-align: center;
+        font-size: 18px;
+        color: #47525e;
+        margin-bottom: 35px;
+        margin-top: -30px;
+    }
+
+    .image-contact-fax{
+        width:100vw;
+        height: 17vw;
+        background-image: url('../img/fax-corp.png');
+        background-size: cover;
+    }
+
+    .contact-fax{
+        font-size: 8vw;
+    }
+
+    .image-contact-mail{
+        width:100vw;
+        height: 17vw;
+        background-image: url('../img/mail-sombre.png');
+        background-size: cover;
+    }
+
+    .contact-mail{
+        font-size: 6vw;
+    }
+
+    .emailText{
+        position: relative;
+        top: 18px;
+        font-size: 4vw;
+        line-height: 35px;
+    }
+
+    .image-contact-adresse{
+        width:100vw;
+        height: 17vw;
+        background-image: url('../img/map-sombre.jpg');
+        background-size: cover;
+    }
+
+}
