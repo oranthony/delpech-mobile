@@ -20,7 +20,7 @@
 .image {
     width:100vw;
     height: 90vh;
-    background-image: url('../img/home.jpg');
+    background-image: url('../img/home-blue.jpg');
     background-size: cover;
 }
 
@@ -529,4 +529,24 @@ path{
         background-size: cover;
     }
 
+}
+
+
+/**************************/
+/* Media queries for iPad*/
+/************************/
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px){
+    .text-hover-presentation-2-content{
+        position: relative;
+        color: white;
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 5vw;
+        top: 40vh !important;
+        line-height: 110%;
+        background-color: #595959
+    }
 }
