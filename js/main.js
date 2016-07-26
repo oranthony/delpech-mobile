@@ -23,4 +23,9 @@ $(document).ready(function() {
         $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
         return false;
     });
+
+    // mobile cookie creation
+    $('.desktop-content').click(function () {
+        localStorage.setItem("isMobileDisabled", true);
+    })
 });
